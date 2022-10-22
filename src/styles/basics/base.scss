@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $clr1;
+    color: #fff;
+}
+
+html {
+    font-family: montserrat regular;
+    line-height: 1.75;
+    color: $clr2;
+    text-align: center;
+    
+}
+
+body {
+   margin: 0; 
+  }
+  
+main{
+    margin: 10%;
+}
+
+img {
+    width: 20%;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 2rem;
+    font-family:montserrat h1 ;
+}
+
+
+p {
+    margin: 0 0 2rem;
+    max-width: 46ch;
+}

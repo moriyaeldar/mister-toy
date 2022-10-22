@@ -1,0 +1,31 @@
+.main-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 80%,
+        rgba(255, 255, 255, 0) 100%
+    );
+
+    p {
+        background-color: #fff;
+    }
+
+    .logo {
+        width: 280px;
+        transform: rotate(10deg);
+        mix-blend-mode: multiply;
+    }
+}
+
+.brand-logo{margin-right: 80%;font-size: rem(16px);}
+
+.nav-wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+}
